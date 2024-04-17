@@ -1,13 +1,21 @@
 import express from "express";
-import { mostrarBici, home } from "../controller/controller.js";
+import {
+  mostrarBici,
+  home,
+  addBicycle,
+  editBicycle,
+  deleteBicycle,
+} from "../controller/controller.js";
 const router = express.Router();
 
+router.get("/", home);
 
+router.get("/bicicletas", mostrarBici);
 
+router.post("/bicicleta", addBicycle);
 
+router.put("/bicicleta/:id", editBicycle);
 
-router.get("/", home)
+router.delete("/bicicleta/:id", deleteBicycle);
 
-router.get("/bicicletas", mostrarBici)
-
-export default router
+export default router;

@@ -1,10 +1,1 @@
-{
-    "bicicletas": [
-        {
-            "id": "1",
-            "marca": "oxford",
-            "modelo": "bmx",
-            "precio": 120000
-        }
-    ]
-}
+[{"id":"1","marca":"oxford","modelo":"bmx","precio":120000},{"id":"0cd353de","marca":"Oxford","modelo":"paseo","precio":200000},{"id":"ffac0d79","marca":"Oxford 2","modelo":"paseo 2","precio":150000},{"id":"5d538ad9","marca":"Oxford 3","modelo":"paseo 3","precio":150000},{"id":"24269647","marca":"Oxford 4","modelo":"paseo 4","precio":150000},{"id":"c6f24359","marca":"Oxford 5","modelo":"paseo 5","precio":150000},{"id":"b3615044","marca":"Oxford 6","modelo":"paseo 6","precio":150000}]
