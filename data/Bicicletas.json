@@ -1,0 +1,10 @@
+{
+    "bicicletas": [
+        {
+            "id": "1",
+            "marca": "oxford",
+            "modelo": "bmx",
+            "precio": 120000
+        }
+    ]
+}
